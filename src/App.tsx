@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
+import WelcomeSection from "./components/WelcomeSection/WelcomeSection";
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <header>
         <Navbar />
       </header>
+      <main>
+        <WelcomeSection />
+      </main>
     </>
   );
 }

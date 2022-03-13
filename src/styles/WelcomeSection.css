@@ -1,0 +1,56 @@
+.welcome-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 20px solid #fff;
+}
+
+.welcome-section__heading {
+  font-size: 2.18rem;
+  font-weight: 900;
+  margin-bottom: 60px;
+}
+
+.welcome-section__img-wrapper {
+  width: 100%;
+  margin-bottom: -60%;
+}
+
+.welcome-section__img-wrapper img {
+  width: 100%;
+}
+
+.welcome-section__buy-btn {
+  display: block;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 80px;
+  height: 5rem;
+  height: 5rem;
+  border: none;
+  background-color: #ffb001;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 20px 59px -10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 20px 59px -10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 768px) {
+  .welcome-section__buy-btn {
+    display: none;
+  }
+}
+/*# sourceMappingURL=WelcomeSection.css.map */
