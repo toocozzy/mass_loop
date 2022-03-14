@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import WelcomeSection from "./components/WelcomeSection/WelcomeSection";
+import CalculatorSection from "./components/CalculatorSection/CalculatorSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </header>
       <main>
         <WelcomeSection />
+        <CalculatorSection />
       </main>
     </>
   );

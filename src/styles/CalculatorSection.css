@@ -1,0 +1,60 @@
+.calculator-section {
+  text-align: center;
+}
+
+.calculator-section__info {
+  background-color: #ffb001;
+  text-align: center;
+  border-radius: 10px;
+  padding: 3.125rem 1.25rem 4.68rem;
+  margin-bottom: 3.75rem;
+}
+
+.calculator-section__info-heading {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 29.5px;
+  margin: 0 2.5rem 1.5rem 2.5rem;
+  color: #212121;
+}
+
+.calculator-section__info-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: #212121;
+  margin: 20px 0;
+}
+
+.calculator-section__text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: #212121;
+  margin: 60px 0;
+}
+
+.calculator-section__btn {
+  width: 20rem;
+  height: 5rem;
+  background-color: #ffb001;
+  border: none;
+  outline: none;
+  border-radius: 47.5px;
+  -webkit-box-shadow: 0px 34px 64px -10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 34px 64px -10px rgba(0, 0, 0, 0.15);
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.calculator-section__btn span {
+  font-weight: 900;
+}
+
+.calculator-section__heading--h3 {
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-bottom: 103px;
+}
+/*# sourceMappingURL=CalculatorSection.css.map */

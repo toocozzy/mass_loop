@@ -1,0 +1,60 @@
+@import "../../variables/variables.scss";
+
+.calculator-section {
+  text-align: center;
+
+  &__info {
+    background-color: $primaryYellow;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3.125rem 1.25rem 4.68rem;
+    margin-bottom: 3.75rem;
+
+    &-heading {
+      font-size: 1.5rem;
+      font-weight: 900;
+      line-height: 29.5px;
+      margin: 0 2.5rem 1.5rem 2.5rem;
+      color: $primaryBlack;
+    }
+
+    &-text {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 25px;
+      color: $primaryBlack;
+      margin: 20px 0;
+    }
+  }
+
+  &__text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: $primaryBlack;
+    margin: 60px 0;
+  }
+
+  &__btn {
+    width: 20rem;
+    height: 5rem;
+    background-color: $primaryYellow;
+    border: none;
+    outline: none;
+    border-radius: 47.5px;
+    box-shadow: 0px 34px 64px -10px rgba(0, 0, 0, 0.15);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 60px;
+
+    & span {
+      font-weight: 900;
+    }
+  }
+
+  &__heading--h3 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 103px;
+  }
+}
